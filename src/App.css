@@ -1,0 +1,181 @@
+.the-translator {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.text {
+  text-align: center;
+}
+
+.text-1 {
+  font-size: 20px;
+}
+
+.mini-box-body-color {
+  background-color: #c3c3c4;
+}
+
+.box {
+  width: 30vw;
+  height: 70vh;
+  border: 1px solid #bebebe;
+  border-radius: 20px;
+  padding: 50px;
+  margin-right: 5vw;
+}
+
+.mb {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+
+  div {
+    width: 100%;
+  }
+}
+
+.mini-box {
+  border: 1px solid #838383;
+  border-radius: 10px;
+  padding: 0 10px 10px 10px;
+  height: 20vh;
+  background-color: #E5E5E5;
+  opacity: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.youtube-url {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.fg {
+  width: 100%;
+}
+
+.url-box {
+  display: flex;
+  height: 30px;
+}
+
+.url-btn {
+  width: 8vw;
+  height: 30px;
+  border: 1px solid #838383;
+  border-radius: 5px;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animated-background {}
+
+.log-in {
+  text-align: center;
+  display: flex;
+
+  :first-child {
+    margin-left: 0;
+  }
+
+  p,
+  log-in-btn {
+    background-color: #E5E5E5;
+    margin: 0 10px;
+    width: 125px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 50px;
+    padding: 3px 0;
+  }
+}
+
+.log-in-btn {
+  background-color: #E5E5E5;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 50px;
+  padding: 3px 0;
+}
+
+.cusor {
+  cursor: pointer;
+}
+
+.log-in-box {
+  input {
+    padding: 3px 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+  /* 밑줄 제거 */
+  color: inherit;
+  /* 부모 요소의 색상 상속 */
+  background-color: transparent;
+  /* 배경색 초기화 */
+  padding: 0;
+  /* 패딩 초기화 */
+  margin: 0;
+  /* 마진 초기화 */
+  border: none;
+  /* 경계선 초기화 */
+  outline: none;
+  /* 외곽선 제거 */
+}
+
+.sign-up-btn {
+  p {
+    text-decoration: underline;
+    /* 밑줄 추가 */
+    text-underline-offset: 3px;
+    /* 밑줄을 글자와 3px 떨어뜨림 */
+    width: fit-content;
+    /* 내용물만큼 크기조절!!*/
+  }
+}
+
+.down-btn {
+  width: fit-content;
+  padding: 10px;
+  animation: move 0.5s linear 1;
+  animation-fill-mode: forwards;
+  margin-top: 0;
+}
+
+.down-text {
+  margin-top: 87px;
+  animation: move 0.5s linear 1;
+  animation-fill-mode: forwards;
+}
+
+.down-btn2{
+  display: block;
+  margin-top: 200px;
+  animation: move 0.5s linear 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
+  float: right;
+  background-color:#f2f2f2;
+}
